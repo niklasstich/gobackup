@@ -1,0 +1,16 @@
+# Example config file
+# Please use fully qualified paths everywhere
+
+# The destination we should make our backups at
+BackupDestination: /home/club/code/AdLer/gobackup/test
+
+# BackupSources and BackupSourcesNonRecursive must be directories
+BackupSources:
+  - /home/club/code/AdLer/gobackup/test2
+BackupSourcesNonRecursive:
+
+# How many iterations of every strategy should be retained?
+RetainStrategy:
+  Daily: 7
+  Weekly: 4
+  Monthly: 6
