@@ -2,11 +2,12 @@
 # Please use fully qualified paths everywhere
 
 # The destination we should make our backups at
-BackupDestination: /home/club/code/AdLer/gobackup/test
+BackupDestination: /home/user/foo/bar
 
 # BackupSources and BackupSourcesNonRecursive must be directories
 BackupSources:
-  - /home/club/code/AdLer/gobackup/test2
+  - /home/club/bar/baz
+  - /var/foo/bar
 BackupSourcesNonRecursive:
 
 # How many iterations of every strategy should be retained?
